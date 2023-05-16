@@ -90,12 +90,12 @@ const App = () => {
                     }, { command: "root@harsh:~$ " }]);
                   } else if (command === "github") {
                     setUi([...ui, {
-                      OutputLine: <div>Opening github profile on new tab</div>
+                      OutputLine: <div className="text-gray-100">Opening github profile on new tab</div>
                     }, { command: "root@harsh:~$ " }]);
                     window.open("https://github.com/hp-01", "_blank");
                   } else {
                     setUi([...ui, {
-                      OutputLine: <div>Working on it, Try using help command</div>
+                      OutputLine: <div className="text-gray-100">Working on it, Try using help command</div>
                     }, { command: "root@harsh:~$ " }]);
                   }
                 }
