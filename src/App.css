@@ -93,70 +93,100 @@ body {
 }
 
 #menu a.active {
-  color: #14b8a6;
+  color: #2216fc;
 }
 
-#hiro {
+#about {
   margin-top: 3rem;
   padding: 1rem 1rem;
 }
 
-#hiro h4 {
+#about h4 {
   color: #3b3b3b;
 }
 
-#hiro > div:nth-child(1) {
+#about > div:nth-child(1) {
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
 }
 
-#hiro > div:nth-child(1) > div {
+#about > div:nth-child(1) > div {
   width: 50%;
   padding: 1rem;
 }
 
-#hiro > div:nth-child(1) > div:nth-child(2) {
+#about > div:nth-child(1) > div:nth-child(2) {
   text-align: center;
 }
 
-#hiro > div:nth-child(1) img {
+#about > div:nth-child(1) img {
   width: 240px;
   rotate: 0.1rad 0 0;
   border-radius: 8px;
 }
 
-#hiro ul {
+#about ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-#hiro li {
+#about li {
   padding: 0;
 }
 
-#hiro h4 {
+#about h4 {
   margin: 1rem 0;
   font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#projects {
+  padding: 1rem;
+}
+
+#projects > div:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#projects > div:nth-child(1) > div {
+  width: 300px;
+  padding: 1.5rem 1rem;
+  background-color: #f9f9f9;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border-radius: 8px;
+  border: 1px solid #9d9d9d;
+}
+
+#projects > div:nth-child(1) h4 {
+  color: #3b3b3b;
+}
+
+#projects > div:nth-child(1) a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
-  #hiro > div:nth-child(1) {
+  #about > div:nth-child(1) {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
 
-  #hiro > div:nth-child(1) > div {
+  #about > div:nth-child(1) > div {
     padding: 0.5rem;
   }
 
-  #hiro > div:nth-child(1) > div:nth-child(2) {
+  #about > div:nth-child(1) > div:nth-child(2) {
     text-align: start;
   }
 
-  #hiro > div:nth-child(1) > div {
+  #about > div:nth-child(1) > div {
     width: 100%;
   }
 }
@@ -170,17 +200,17 @@ body {
     padding: 0.5rem 1rem;
   }
 
-  #hiro {
+  #about {
     margin-top: 3.5rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #hiro {
+@media only screen and (max-width: 300px) {
+  #about {
     margin-top: 6rem;
   }
-  
-  #hiro > div:nth-child(1) img {
+
+  #about > div:nth-child(1) img {
     width: 200px;
   }
 }

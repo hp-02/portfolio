@@ -1,7 +1,7 @@
-const Hiro = () => {
+const About = () => {
     return (
 
-        <div id="hiro">
+        <div id="about">
             <div>
                 <div>
                     <h1>Full-stack web developer</h1>
@@ -28,4 +28,4 @@ const Hiro = () => {
     );
 }
 
-export default Hiro;
+export default About;

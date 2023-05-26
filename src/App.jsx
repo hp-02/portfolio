@@ -1,12 +1,14 @@
 import "./App.css";
-import Hiro from "./components/Hiro";
+import About from "./components/About";
 import Menu from "./components/Menu";
+import Project from "./components/Project";
 
 const App = () => {
     return (
         <div id="app">
             <Menu />
-            <Hiro />
+            <About />
+            <Project />
         </div>
     );
 }
