@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -122,8 +122,12 @@ body {
 
 #about > div:nth-child(1) img {
   width: 240px;
-  rotate: 0.1rad 0 0;
   border-radius: 8px;
+  transition: 1s;
+}
+
+#about > div:nth-child(1) .rotate {
+  rotate: 0.1rad 0 0;
 }
 
 #about ul {
@@ -147,15 +151,19 @@ body {
   padding: 1rem;
 }
 
-#projects > div:nth-child(1) {
+#projects > div:nth-child(1) h2 {
+  padding: 1rem;
+}
+
+#projects .personal-projects {
   display: flex;
   flex-wrap: wrap;
 }
 
-#projects > div:nth-child(1) > div {
+#projects .personal-projects > div {
   width: 300px;
   padding: 1.5rem 1rem;
-  background-color: #f9f9f9;
+  background-color: #fcfcfc;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -164,12 +172,52 @@ body {
   border: 1px solid #9d9d9d;
 }
 
-#projects > div:nth-child(1) h4 {
+#projects .personal_projects h4 {
   color: #3b3b3b;
+  font-weight: normal;
 }
 
-#projects > div:nth-child(1) a {
+#projects .personal_projects a {
   text-decoration: none;
+}
+
+#projects > div:nth-child(2) {
+  padding: 2rem 1rem;
+}
+
+#projects > div:nth-child(2) > div {
+  padding: 1rem 0;
+}
+
+#projects > div:nth-child(2) > div > img {
+  margin: 1rem 1rem 0 0;
+  border: 1px solid #9d9d9d;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+}
+
+#projects > div:nth-child(3) {
+  padding: 0 1rem;
+}
+
+.work-experience {
+  display: flex;
+  margin: 1rem 0;
+  border-bottom: 1px solid #9d9d9d;
+}
+
+.work-experience > div {
+  padding: 1rem;
+}
+
+.work-experience > div p:nth-child(1) {
+  font-weight: bold;
+}
+
+.work-experience > div p:nth-child(4) {
+  margin-top: 0.4rem;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
@@ -202,6 +250,16 @@ body {
 
   #about {
     margin-top: 3.5rem;
+  }
+
+  #projects > div:nth-child(2) > div > img {
+    margin: 1rem 1rem 0 0;
+    border: 1px solid #9d9d9d;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+    width: 80px;
+    height: 80px;
   }
 }
 

@@ -9,7 +9,7 @@ const About = () => {
                     </h4>
                 </div>
                 <div>
-                    <img src="images/image1.png" alt="art" />
+                    <img src="images/image1.png" alt="art" onLoad={e => e.target.classList.add("rotate")} />
                 </div>
             </div>
             <ul>
