@@ -12,18 +12,12 @@ const About = () => {
                     <img src="images/image1.png" alt="art" onLoad={e => e.target.classList.add("rotate")} />
                 </div>
             </div>
-            <ul>
-                <li>
-                    <a href="https://github.com/hp-01" target="_blank">
-                        <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/90/github.png" alt="github" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/harsh-p-a35892131/" target="_blank">
-                        <img width="48" height="48" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin" />
-                    </a>
-                </li>
-            </ul>
+            <a href="https://github.com/hp-01" target="_blank">
+                <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/90/github.png" alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/harsh-p-a35892131/" target="_blank">
+                <img width="48" height="48" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin" />
+            </a>
         </section>
     );
 }

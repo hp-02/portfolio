@@ -19,8 +19,7 @@
 .btn {
   appearance: none;
   background-color: transparent;
-  border: 2px solid hsl(0, 0%, 10%);
-  border-radius: 40px;
+  border: 1px solid hsl(0, 0%, 10%);
   color: #3b3b3b;
   cursor: pointer;
   display: inline-block;
@@ -130,17 +129,6 @@ body {
   rotate: 0.1rad 0 0;
 }
 
-#about ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-#about li {
-  padding: 0;
-}
-
 #about h4 {
   margin: 1rem 0;
   font-weight: 500;
@@ -224,6 +212,39 @@ body {
   font-weight: bold;
 }
 
+#contact {
+  padding: 1rem;
+}
+
+#contact h1 {
+  padding: 0 1rem;
+}
+
+.contact-info {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#contact > div {
+  display: flex;
+}
+
+.form-group label {
+  display: block;
+  margin: 4px 0;
+}
+
+.form-control {
+  border: 1px solid #383636;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  margin: 4px 0;
+}
+
 @media only screen and (max-width: 800px) {
   #about > div:nth-child(1) {
     flex-wrap: wrap;
@@ -240,6 +261,10 @@ body {
 
   #about > div:nth-child(1) > div {
     width: 100%;
+  }
+
+  #contact > div {
+    display: block;
   }
 }
 
