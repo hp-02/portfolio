@@ -1,6 +1,6 @@
 const Project = () => {
     return (
-        <div id="projects">
+        <section id="projects">
             <div>
                 <h2>Personal Projects</h2>
                 <div className="personal-projects">
@@ -53,6 +53,7 @@ const Project = () => {
                         <p>Full Stack Development</p>
                         <p>Sentics GmbH - Internship</p>
                         <p>Aug 2022 - Jan 2023</p>
+                        <p>Building dashboard to show live sensor data from a factory about user and vehicle position in a 3D enviroment from MQTT broker.</p>
                         <p>Skills</p>
                         <p>React.js, ThreeJS, TypeScript</p>
                     </div>
@@ -63,12 +64,13 @@ const Project = () => {
                         <p>Software Generalist</p>
                         <p>Magikos Tech Private Limited</p>
                         <p>Jul 2021 - Jul 2022</p>
+                        <p>Building automation tools using Google APIs to stream line the flow of Google Workspace account creation for the reseller. Building Fintech tool for storing stocks information for further trading process. </p>
                         <p>Skills</p>
                         <p>NodeJS, React.js, Google Apps Script, Google APIs and Cloud Compute</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

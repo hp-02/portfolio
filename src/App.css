@@ -216,6 +216,10 @@ body {
 }
 
 .work-experience > div p:nth-child(4) {
+  margin-top: 0.5rem;
+}
+
+.work-experience > div p:nth-child(5) {
   margin-top: 0.4rem;
   font-weight: bold;
 }
