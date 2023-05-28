@@ -54,7 +54,7 @@ const Project = () => {
                         <p>Sentics GmbH - Internship</p>
                         <p>Aug 2022 - Jan 2023</p>
                         <p>Skills</p>
-                        <p>React.js, ThreeJS</p>
+                        <p>React.js, ThreeJS, TypeScript</p>
                     </div>
                 </div>
                 <div className="work-experience">

@@ -155,12 +155,12 @@ body {
   padding: 1rem;
 }
 
-#projects .personal-projects {
+.personal-projects {
   display: flex;
   flex-wrap: wrap;
 }
 
-#projects .personal-projects > div {
+.personal-projects > div {
   width: 300px;
   padding: 1.5rem 1rem;
   background-color: #fcfcfc;
@@ -172,12 +172,12 @@ body {
   border: 1px solid #9d9d9d;
 }
 
-#projects .personal_projects h4 {
+.personal-projects h4 {
   color: #3b3b3b;
   font-weight: normal;
 }
 
-#projects .personal_projects a {
+.personal-projects a {
   text-decoration: none;
 }
 
