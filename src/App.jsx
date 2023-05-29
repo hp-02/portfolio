@@ -12,6 +12,7 @@ const App = () => {
             <About />
             <Project />
             <Contact />
+            <CommandPrompt />
         </div>
     );
 }

@@ -30,11 +30,11 @@ const Contact = () => {
                 <div style={{ width: "100%", padding: "0 1rem" }}>
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
-                        <input className="form-control" name="name" value={name} onChange={e => setName(e.target.value)} />
+                        <input className="form-control" name="name" id="name" value={name} onChange={e => setName(e.target.value)} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
-                        <textarea className="form-control" name="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+                        <textarea className="form-control" name="message" id="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}></textarea>
                     </div>
                     <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=harshpandey971@gmail.com&body=Hi Harsh, %0A%0A${message}%0A%0ARegards,%0A${name}`} target="_blank" className="btn">Submit</a>
                 </div>

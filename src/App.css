@@ -245,6 +245,21 @@ body {
   margin: 4px 0;
 }
 
+.commandprompt {
+  margin: 1rem 0;
+  background-color: #f2f2f2;
+}
+
+input.commandprompt {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.helpcmd tr > td:nth-child(2) {
+  padding-left: 1rem;
+}
+
 @media only screen and (max-width: 800px) {
   #about > div:nth-child(1) {
     flex-wrap: wrap;
