@@ -1,4 +1,3 @@
-import "./App.css";
 import { useState } from "react";
 import levenshtein from "js-levenshtein";
 import FocusLock, { AutoFocusInside } from 'react-focus-lock';
@@ -7,7 +6,8 @@ const user = "root@harsh:~$ ";
 const len = user.length;
 const cmds = ["clear", "help", "github", "whoami", "linkedln", "projects", "resume"];
 const commandCommonProperties = { status: false, firstTab: true, tabIndex: 0, nearCommand: [] };
-const App = () => {
+
+const CommandPrompt = () => {
   const [ui, setUi] = useState([{ command: "root@harsh:~$ ", ...commandCommonProperties }]);
 
   return (
@@ -126,4 +126,4 @@ const WelcomeComponent = () => {
   );
 }
 
-export default App;
+export default CommandPrompt;

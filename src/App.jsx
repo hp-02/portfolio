@@ -3,6 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Menu from "./components/Menu";
 import Project from "./components/Project";
+import CommandPrompt from "./components/CommandPrompt";
 
 const App = () => {
     return (

@@ -27,7 +27,7 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-                <div style={{ width: "100%", padding: "1rem" }}>
+                <div style={{ width: "100%", padding: "0 1rem" }}>
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
                         <input className="form-control" name="name" value={name} onChange={e => setName(e.target.value)} />
