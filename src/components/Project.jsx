@@ -11,7 +11,8 @@ const Project = () => {
                             To-do lists offer a way to increase productivity, stopping you from forgetting things, helps prioritise tasks, manage tasks effectively, use time wisely and improve time management as well as workflow.
                             This projects uses MERN stack.
                         </h4>
-                        <a href="https://github.com/hp-01/todo-app-mern" target="_blank">View Project →</a>
+                        <a href="https://github.com/hp-01/todo-app-mern" target="_blank">View Code →</a>
+                        <a href="https://bit.ly/hp_todoapp" target="_blank">Live Project →</a>
                     </div>
                     <div>
                         <img width="30" height="30" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript" />
@@ -21,7 +22,8 @@ const Project = () => {
                             Have you ever tried to use product or colleague images instead of names as a filter in your Tableau Dashboards?
                             I have created free version of this tool, with some extra features.
                         </h4>
-                        <a href="https://github.com/hp-02/picture-this-free" target="_blank">View Project →</a>
+                        <a href="https://github.com/hp-02/picture-this-free" target="_blank">View Code →</a>
+                        <a href="https://squid-app-4po7k.ondigitalocean.app/" target="_blank">Live Project →</a>
                     </div>
                     <div>
                         <img width="30" height="30" src="https://img.icons8.com/color/48/python--v1.png" alt="python" />
@@ -29,7 +31,7 @@ const Project = () => {
                         <h4>
                             This project uses Hugging face Transformer and Youtube API to extract comment and does sentimental analysis.
                         </h4>
-                        <a href="https://github.com/hp-02/youtube_sentimental_analysis" target="_blank">View Project →</a>
+                        <a href="https://github.com/hp-02/youtube_sentimental_analysis" target="_blank">View Code →</a>
                     </div>
                 </div>
             </div>
