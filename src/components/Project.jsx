@@ -11,7 +11,7 @@ const Project = () => {
                             To-do lists offer a way to increase productivity, stopping you from forgetting things, helps prioritise tasks, manage tasks effectively, use time wisely and improve time management as well as workflow.
                             This projects uses MERN stack.
                         </h4>
-                        <a href="https://github.com/hp-02/mern-todo" target="_blank">View Project →</a>
+                        <a href="https://github.com/hp-01/todo-app-mern" target="_blank">View Project →</a>
                     </div>
                     <div>
                         <img width="30" height="30" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript" />
