@@ -20,7 +20,9 @@ const CommandPrompt = () => {
         <div key={index}>
           {index % 2 == 0 ?
             !item.status ?
-              <input className="commandprompt"
+            <>
+            <label htmlFor="commandprompt"></label>
+              <input className="commandprompt" name="commandprompt"
                 value={item.command} onChange={(e) => {
                   if (e.target.value.length < len || item.status) return;
                   item.command = user + e.target.value.substring(len);
@@ -100,7 +102,7 @@ const CommandPrompt = () => {
                     }
                   }
                   e.stopPropagation();
-                }} spellCheck="false" />
+                }} spellCheck="false" /></>
               : <div className="commandprompt">{item.command}</div>
             :
             item.OutputLine

@@ -50,7 +50,7 @@ const Project = () => {
             <div>
                 <h2>Work experience</h2>
                 <div className="work-experience">
-                    <img src="https://media.licdn.com/dms/image/C4E0BAQHaILZibT4QUw/company-logo_100_100/0/1655749621031?e=1693440000&v=beta&t=XuHFO7MxXizkykqOtTXxi-P6WE3asGh1D00jAo5SsQA" alt="sentic_logo" width="48px" height="48px" />
+                    <img src="https://media.licdn.com/dms/image/C4E0BAQHaILZibT4QUw/company-logo_100_100/0/1655749621031?e=1703116800&v=beta&t=rHnySF3MLAEGIby0-tmuuk8Irs-s_pp7SE6JIQczwSk" alt="sentic_logo" width="48px" height="48px" />
                     <div>
                         <p>Full Stack Development</p>
                         <p>Sentics GmbH - Internship</p>
@@ -61,7 +61,7 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="work-experience">
-                    <img src="https://media.licdn.com/dms/image/D560BAQHaK1sbFJnUBA/company-logo_100_100/0/1681110810650?e=1693440000&v=beta&t=5pMyJtdmFKKKogqsoTkAl0I-w685ma5pSg-Y_i5Ct1Q" alt="magikos_logo" width="48px" height="48px" />
+                    <img src="https://media.licdn.com/dms/image/D560BAQHaK1sbFJnUBA/company-logo_100_100/0/1681110810650?e=1703116800&v=beta&t=fTpZt0LHH4NtDjnkhp4DxGQ_4Fzso22mP6DRNjpjCYk" alt="magikos_logo" width="48px" height="48px" />
                     <div>
                         <p>Software Generalist</p>
                         <p>Magikos Tech Private Limited</p>
